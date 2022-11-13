@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "Job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "designation": {
+      "type": "string"
+    },
+    "joiningDate": {
+      "type": "date"
+    },
+    "leavingDate": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string"
+    },
+    "workDescription": {
+      "type": "richtext"
+    },
+    "present": {
+      "type": "boolean",
+      "default": false
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

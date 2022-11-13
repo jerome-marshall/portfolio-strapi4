@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_data_projects_pages",
+  "info": {
+    "displayName": "Projects Page",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.common-page-content"
+    }
+  }
+}

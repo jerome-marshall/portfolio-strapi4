@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_data",
+  "info": {
+    "singularName": "global-datum",
+    "pluralName": "global-data",
+    "displayName": "Global Data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.social"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "pageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "page-data.about-page",
+        "page-data.contact-page",
+        "page-data.experience-page",
+        "page-data.hero-page",
+        "page-data.projects-page"
+      ]
+    }
+  }
+}

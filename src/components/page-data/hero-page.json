@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_data_hero_pages",
+  "info": {
+    "displayName": "Hero Page",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.common-page-content"
+    }
+  }
+}

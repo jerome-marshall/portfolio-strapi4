@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_common_page_contents",
+  "info": {
+    "displayName": "Common Page Content",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

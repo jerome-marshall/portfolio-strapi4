@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_socials",
+  "info": {
+    "displayName": "social",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

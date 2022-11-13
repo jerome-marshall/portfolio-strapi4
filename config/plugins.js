@@ -1,6 +1,10 @@
 // plugins.js
 module.exports = () => {
   return {
+    "drag-drop-content-types": {
+      enabled: true,
+    },
+    "duplicate-button": true,
     ckeditor: {
       enabled: true,
       config: {
