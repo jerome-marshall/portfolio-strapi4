@@ -16,7 +16,7 @@
       "type": "string"
     },
     "quote": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }

@@ -28,15 +28,27 @@
         "images"
       ]
     },
-    "pageContent": {
-      "type": "dynamiczone",
-      "components": [
-        "page-data.about-page",
-        "page-data.contact-page",
-        "page-data.experience-page",
-        "page-data.hero-page",
-        "page-data.projects-page"
-      ]
+    "shortIntroduction": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "about": {
+      "type": "richtext"
+    },
+    "contactText": {
+      "type": "text"
+    },
+    "skillsHighlight": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skill.skill"
+    },
+    "projectsHighlight": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
     }
   }
 }
