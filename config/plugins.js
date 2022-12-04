@@ -1,5 +1,5 @@
 // plugins.js
-module.exports = () => {
+module.exports = ({ env }) => {
   return {
     "drag-drop-content-types": {
       enabled: true,
@@ -8,6 +8,8 @@ module.exports = () => {
     ckeditor: {
       enabled: true,
       config: {
+        jwtSecret:
+          env("JWT_SECRET") || crypto.randomBytes(16).toString("base64"),
         plugin: {
           // disable data-theme tag setting //
           // setAttribute:false,
