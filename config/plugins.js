@@ -1,3 +1,4 @@
+const crypto = require("crypto");
 // plugins.js
 module.exports = ({ env }) => {
   return {
